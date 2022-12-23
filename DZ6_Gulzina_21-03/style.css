@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+}
+.result{
+    width: 200px;
+    height: 200px;
+}
+.result input{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.increment, .decrement, .restart{
+    padding: 5px 8px;
+    background-color: burlywood;
+    font-size: 24px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
