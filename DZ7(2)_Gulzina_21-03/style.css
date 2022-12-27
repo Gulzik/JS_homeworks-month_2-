@@ -1,0 +1,58 @@
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+.parent {
+    height: 200px;
+    width: 200px;
+}
+.parent .child_1 {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 70px;
+    height: 50px;
+    margin-right: 100px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid cadetblue;
+    background-color: cornsilk;
+    font-size: 20px;
+
+}
+span {
+    padding: 15px 32px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+    font-size: 20px;
+}
+
+.parent .child_2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.child_2 > button {
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px solid cadetblue;
+}
+button:hover {
+    background-color: aquamarine;
+    color: blue;
+
+}
